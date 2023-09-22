@@ -2,6 +2,7 @@
 import React, {FC, useState} from 'react'
 import Heading from './components/Heading'
 import Header from './components/Header'
+import Hero from './components/Hero'
 
 const Page = () => {
   const [open, setOpen] = useState(false)
@@ -17,6 +18,7 @@ const Page = () => {
           setOpen={setOpen}
           activeItem={activeItem}
           />
+          <Hero />
     </div>
   )
 }
