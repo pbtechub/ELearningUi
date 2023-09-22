@@ -8,7 +8,7 @@ const Hero = () => {
    
         <div className="md:flex items-center px-[30px] md:px-[40px] py-[30px] bg-inherit">
             <div className="hidden md:flex  flex-1 items-center justify-left">
-                <div className="w-[300px] h-[300px] lg:w-[350px] lg:h-[350px] rounded-full bg-black p-4 flex items-center justify-center hero_animation">
+                <div className="w-[300px] h-[300px] lg:w-[350px] lg:h-[350px] xl:w-[400px] xl:h-[400px] rounded-full bg-black p-4 flex items-center justify-center hero_animation">
                     <Image 
                     src={require('../../public/banner-img-1.png')}
                     className='object-contain 1100px:max-w-[90%] w-[90%] 1500px:max-w-[85%] h-auto z-10'/>
