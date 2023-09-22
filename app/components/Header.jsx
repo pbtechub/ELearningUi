@@ -45,7 +45,7 @@ const Header = ({ open, setOpen, activeItem }) => {
                 onClick={()=> setOpenSidebar(true)}/>
               </div>
               <HiOutlineUserCircle 
-                className="hidden md:block cursor-pointer dark:text-white text-black"
+                className="hidden md:block cursor-pointer dark:text-white text-black z-50"
                 size={25}
                 onClick={()=> setOpen(true)}/>
             </div>
